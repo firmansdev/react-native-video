@@ -138,8 +138,9 @@ android {
             abiFilters(*reactNativeArchitectures())
         }
     }
-
+    
     buildFeatures {
+        compose = true,
         buildConfig true
     }
 
